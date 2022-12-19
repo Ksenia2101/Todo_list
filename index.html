@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+    <h1>ToDo List</h1>
+</header>
+<main>
+    <div class="addTODO">
+        <div>
+            <input type="text" id="addTitle">
+        </div>
+        <select id="addPrior">
+            <option value="1" class="blue">По дому</option>
+            <option value="2" class="red">По работе</option>
+            <option value="3" class="green">По учебе</option>
+            <option value="3" class="grey">Собственные</option>
+        </select>
+        <div>
+            <input type="button" id="addBtn" value="Добавить">
+        </div>
+    </div>
+    <div class="TODO"> </div> 
+        <div class="delbtn"><input type="button" value="Удалить все дела" id="delBtn"></div>
+
+    </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
+<style type="text/css">
+    BODY {background: url(https://img.freepik.com/premium-photo/christmas-scene-background-of-office-desktop-work-space_47840-1173.jpg?w=1380) no-repeat; /* Параметры фона */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
